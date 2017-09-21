@@ -75,6 +75,9 @@ handler = Dict(
 )
 
 main() = begin
+  print("password: ")
+  pw = readline(STDIN)
+
   if length(ARGS) == 0
     ls([])
   else
